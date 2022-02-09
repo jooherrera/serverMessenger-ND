@@ -1,0 +1,17 @@
+{
+  "name": "servermessenger-nd",
+  "version": "0.4.5",
+  "description": "Módulo que contiene los mensajes que el servidor envia al cliente. ",
+  "main": "./lib/servermessenger-nd.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc servermessenger-nd.ts --target es6",
+    "clean": "rm -rf lib"
+  },
+  "keywords": [
+    "servermessenger"
+  ],
+  "author": "Jose Herrera",
+  "license": "MIT"
+}
