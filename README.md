@@ -100,7 +100,7 @@ app.get('/', (req, res) => {
 app.listen(5000, () => console.log('Server ON'))
 ```
 
-![image-20220208113825605](./images/image-20220208113825605.png)
+![image-20220208113825605](https://user-images.githubusercontent.com/74759684/153309521-23257795-eca5-4214-b865-593d7a525b91.png)
 
 ```typescript
 app.get('/info', (req, res) => {
@@ -116,7 +116,7 @@ app.get('/info', (req, res) => {
 })
 ```
 
-![image-20220208115659710](./images/image-20220208115659710.png)
+![image-20220208115659710](https://user-images.githubusercontent.com/74759684/153309564-92c8de15-bac4-464b-8e68-130c0fca800f.png)
 
 ```typescript
 app.post('/', (req, res) => {
@@ -146,17 +146,17 @@ app.post('/', (req, res) => {
 
 ### Error esperado
 
-![image-20220208121228327](./images/image-20220208121228327.png)
+![image-20220208121228327](https://user-images.githubusercontent.com/74759684/153309543-9758cf45-1408-4a49-b14a-e0d723d7c92e.png)
 
 ### Sin errores
 
-![image-20220208121347664](./images/image-20220208121347664.png)
+![image-20220208121347664](https://user-images.githubusercontent.com/74759684/153309581-1146f457-e1ef-413d-be76-b1161dd98ff4.png)
 
 ###
 
 ### Error inesperado
 
-![image-20220208121800359](./images/image-20220208121800359.png)
+![image-20220208121800359](https://user-images.githubusercontent.com/74759684/153309589-04a80684-7d62-4349-a902-774a73589e9f.png)
 
 # RASTREAR EL ERROR
 

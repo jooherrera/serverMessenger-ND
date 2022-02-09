@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc servermessenger-nd.ts --target es6",
+    "build": "tsc servermessenger-nd.ts --target es6 --outdir lib",
     "clean": "rm -rf lib"
   },
   "keywords": [
